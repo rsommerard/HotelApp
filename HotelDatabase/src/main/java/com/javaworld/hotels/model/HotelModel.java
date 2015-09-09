@@ -29,7 +29,7 @@ public class HotelModel {
 	 */
 	private static String[] cities =
 	{
-		"Pais",
+		"Paris",
 		"London",
 	};
 	

@@ -33,7 +33,7 @@ public class HotelModelTest extends TestCase {
 		List<Hotel> hotels = finder.findHotelsByCity("London");
 		assertTrue(hotels.size() > 0);
 		for(Hotel h : hotels) {
-			assertEquals(h.getCity(),"London");			
+			assertEquals(h.getCity(),"London")			
 		}
 	}
 
